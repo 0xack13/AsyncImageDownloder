@@ -30,5 +30,12 @@ namespace AsyncDownloader
             byte[] imageData = client.DownloadData("https://www.google.com.sa/images/srpr/logo11w.png");
             this.pictureBox1.Image = Image.FromStream(new MemoryStream(imageData));
         }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            byte[] imageData = await client.DownloadDataTaskAsync("https://www.google.com.sa/images/srpr/logo11w.png");
+            this.pictureBox1.Image = Image.FromStream(new MemoryStream(imageData));
+        }
     }
 }
