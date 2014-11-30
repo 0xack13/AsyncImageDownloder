@@ -35,7 +35,6 @@ namespace YieldSample
             {
                 runningtotal += i;
                 yield return (runningtotal);
-
             }
         }
     }

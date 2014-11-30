@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDownloader", "AsyncDow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnValueFromATask", "ReturnValueFromATask\ReturnValueFromATask.csproj", "{A9CC106D-AAF8-4EB4-A4A2-D31DFDD723AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldSample", "YieldSample\YieldSample.csproj", "{4FD5F626-FF57-4EDA-8442-7CC11DB19102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A9CC106D-AAF8-4EB4-A4A2-D31DFDD723AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CC106D-AAF8-4EB4-A4A2-D31DFDD723AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9CC106D-AAF8-4EB4-A4A2-D31DFDD723AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD5F626-FF57-4EDA-8442-7CC11DB19102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD5F626-FF57-4EDA-8442-7CC11DB19102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD5F626-FF57-4EDA-8442-7CC11DB19102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD5F626-FF57-4EDA-8442-7CC11DB19102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
